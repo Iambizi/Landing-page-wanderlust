@@ -1,0 +1,244 @@
+html {
+  background: url("https://images.unsplash.com/photo-1490359144708-3329fae5c6e8?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden; }
+
+body {
+  margin: 0 0; }
+
+header {
+  height: 8vh;
+  width: 100vw;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  padding: 23px 0px 9px 10px; }
+  header .navigation {
+    position: relative;
+    padding: 20px 0 10px 0;
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    header .navigation .title {
+      font-size: 16px; }
+    header .navigation .left {
+      position: absolute;
+      left: 3%;
+      letter-spacing: 1px; }
+    header .navigation .middle {
+      margin: 0 130px 0 0px;
+      text-align: center;
+      letter-spacing: 1px; }
+    header .navigation .submit {
+      position: absolute;
+      right: 19%; }
+    header .navigation .glass {
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      right: 13.5%;
+      top: 15%; }
+    header .navigation:hover {
+      cursor: pointer; }
+    header .navigation .hamburger {
+      position: absolute;
+      right: 8%;
+      height: 25px;
+      width: 25px;
+      top: 15%; }
+    header .navigation .active {
+      border-bottom: 3.8px solid #fff;
+      padding-bottom: 45.7px; }
+    header .navigation:hover {
+      cursor: pointer; }
+    header .navigation a {
+      text-decoration: none;
+      color: #414141;
+      font-family: Arial-black, sans-serif;
+      font-weight: 600;
+      font-size: 15px; }
+
+.main-content {
+  font-family: Arial-black, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+  .main-content .number-1 {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    left: 7.3%;
+    top: 135px;
+    color: white; }
+    .main-content .number-1 .dots {
+      vertical-align: top; }
+  .main-content .number-4 {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    left: 7.3%;
+    top: 550px;
+    color: white; }
+    .main-content .number-4 .dots {
+      vertical-align: top; }
+  .main-content .slider {
+    position: absolute;
+    left: 9%;
+    top: 178px;
+    width: 2px;
+    height: 380px;
+    background-color: #d8d8d8; }
+    .main-content .slider .slide-1,
+    .main-content .slider .slide-2,
+    .main-content .slider .slide-3,
+    .main-content .slider .slide-4 {
+      width: 2px;
+      height: 95px; }
+      .main-content .slider .slide-1.active,
+      .main-content .slider .slide-2.active,
+      .main-content .slider .slide-3.active,
+      .main-content .slider .slide-4.active {
+        background-color: white; }
+  .main-content .main-text {
+    position: absolute;
+    left: 18.3%;
+    top: 130px; }
+    .main-content .main-text .main-ttl {
+      color: white;
+      font-size: 6rem;
+      letter-spacing: 1px;
+      margin-bottom: 10px; }
+      .main-content .main-text .main-ttl .punctuation {
+        font-family: "karla", sans-serif; }
+    .main-content .main-text .ttl-des {
+      color: white;
+      font-size: 0.8rem;
+      font-weight: lighter; }
+  .main-content .lower-slider {
+    position: absolute;
+    right: 1%;
+    top: 640px;
+    width: 390px;
+    color: white;
+    background-color: white;
+    height: 2px; }
+  .main-content .lower-content {
+    height: 182px;
+    width: 550px;
+    color: rgba(255, 255, 255, 0.836);
+    background: url("../css/images/sand.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0%;
+    top: 662px;
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace; }
+    .main-content .lower-content .up-next-carousel {
+      z-index: 1000;
+      border: 1 orange solid;
+      background-color: rgba(0, 0, 0, 0.884);
+      height: 180px;
+      width: 100px;
+      padding: 13px 13px; }
+      .main-content .lower-content .up-next-carousel .next-info {
+        z-index: 1000;
+        border: 1 orange solid;
+        background-color: rgba(0, 0, 0, 0.884);
+        height: 180px;
+        width: 100px; }
+
+@media only screen and (max-width: 1280px) {
+  header {
+    height: 7vh;
+    padding: 22px 0px 10px 40px; }
+    header .navigation {
+      padding: 13px 0 10px 0; }
+      header .navigation .title {
+        font-size: 16px; }
+      header .navigation .middle {
+        margin: 0 110px 0 00px;
+        text-align: center; }
+      header .navigation a {
+        font-size: 14px; }
+      header .navigation .glass {
+        top: 12%; }
+      header .navigation .hamburger {
+        top: 12%; }
+      header .navigation .active {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 28px; }
+  .main-content .number-1 {
+    position: absolute;
+    left: 5.8%;
+    top: 90px;
+    color: white; }
+    .main-content .number-1 .dots {
+      vertical-align: top; }
+  .main-content .number-4 {
+    position: absolute;
+    left: 5.8%;
+    top: 420px;
+    color: white; }
+    .main-content .number-4 .dots {
+      vertical-align: top; }
+  .main-content .slider {
+    position: absolute;
+    left: 8%;
+    top: 130px;
+    width: 2px;
+    height: 300px;
+    background-color: #d8d8d8d0; }
+    .main-content .slider .slide-1,
+    .main-content .slider .slide-2,
+    .main-content .slider .slide-3,
+    .main-content .slider .slide-4 {
+      width: 2px;
+      height: 75px; }
+      .main-content .slider .slide-1.active,
+      .main-content .slider .slide-2.active,
+      .main-content .slider .slide-3.active,
+      .main-content .slider .slide-4.active {
+        background-color: white; }
+  .main-content .main-text {
+    left: 15%;
+    top: 80px; }
+    .main-content .main-text .main-ttl {
+      font-size: 5.4rem;
+      margin-bottom: 6px; }
+      .main-content .main-text .main-ttl .punctuation {
+        font-family: "karla", sans-serif; }
+    .main-content .main-text .ttl-des {
+      color: white;
+      font-size: 0.7rem;
+      font-weight: lighter; } }
+
+@media only screen and (max-width: 800px) {
+  header {
+    height: 4vh;
+    padding: 22px 0px 10px 10px; }
+    header .navigation {
+      padding: 13px 0 10px 0; }
+      header .navigation .title {
+        font-size: 13px; }
+      header .navigation .middle {
+        margin: 0 60px 0 -10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      header .navigation a {
+        font-size: 11px; } }
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 4vh;
+    padding: 16px 10px 10px 10px; }
+    header .navigation {
+      padding: 12px 0 10px 0; }
+      header .navigation .middle {
+        margin: 0 20px 0 -10px;
+        text-align: center;
+        letter-spacing: 1px; }
+      header .navigation a {
+        font-size: 7px; } }
