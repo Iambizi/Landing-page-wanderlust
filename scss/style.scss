@@ -144,6 +144,24 @@ header {
     background-color: white;
     height: 2px;
   }
+  .previous {
+    position: absolute;
+    right: 44%;
+    top: 740px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.884);
+  }
+  .next {
+    position: absolute;
+    right: 50%;
+    top: 740px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.884);
+  }
   .lower-content {
     height: 182px;
     width: 550px;
@@ -255,6 +273,56 @@ header {
         color: white;
         font-size: 0.7rem;
         font-weight: lighter;
+      }
+    }
+    .lower-slider {
+      position: absolute;
+      right: 1%;
+      top: 405px;
+      width: 390px;
+      color: white;
+      background-color: white;
+      height: 2px;
+    }
+    .previous {
+      position: absolute;
+      right: 54%;
+      top: 530px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      background-color: rgba(0, 0, 0, 0.884);
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    .next {
+      position: absolute;
+      right: 61%;
+      top: 530px;
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      background-color: rgba(0, 0, 0, 0.884);
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    .lower-content {
+      height: 201px;
+      width: 550px;
+      right: 0%;
+      top: 422px;
+      font-size: 14px;
+      font-family: "Roboto Mono", monospace;
+      .up-next-carousel {
+        height: 175px;
+        width: 100px;
+        padding: 13px 13px;
+        .next-info {
+          height: 180px;
+          width: 100px;
+        }
       }
     }
   }
