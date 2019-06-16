@@ -125,20 +125,30 @@ header {
     height: 2px; }
   .main-content .previous {
     position: absolute;
-    right: 44%;
-    top: 740px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.884); }
-  .main-content .next {
-    position: absolute;
     right: 50%;
     top: 740px;
     width: 70px;
     height: 70px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.884); }
+    .main-content .previous .fa {
+      color: #fff;
+      position: absolute;
+      right: 40%;
+      top: 20%; }
+  .main-content .next {
+    position: absolute;
+    right: 44%;
+    top: 739px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.884); }
+    .main-content .next .fa {
+      color: #fff;
+      position: absolute;
+      left: 40%;
+      top: 20%; }
   .main-content .lower-content {
     height: 182px;
     width: 550px;
@@ -233,22 +243,12 @@ header {
   .main-content .lower-slider {
     position: absolute;
     right: 1%;
-    top: 405px;
+    top: 418px;
     width: 390px;
     color: white;
     background-color: white;
     height: 2px; }
   .main-content .previous {
-    position: absolute;
-    right: 54%;
-    top: 530px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.884); }
-  .main-content:hover {
-    cursor: pointer; }
-  .main-content .next {
     position: absolute;
     right: 61%;
     top: 530px;
@@ -256,17 +256,44 @@ header {
     height: 70px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.884); }
+    .main-content .previous .fa {
+      color: #fff;
+      position: absolute;
+      left: 38%;
+      top: 20%; }
+  .main-content:hover {
+    cursor: pointer; }
+  .main-content .next {
+    position: absolute;
+    right: 54%;
+    top: 530px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.884); }
+    .main-content .next .fa {
+      color: #fff;
+      position: absolute;
+      right: 38%;
+      top: 20%; }
   .main-content:hover {
     cursor: pointer; }
   .main-content .lower-content {
-    height: 201px;
+    height: 180px;
     width: 550px;
     right: 0%;
-    top: 422px;
+    top: 441px;
     font-size: 14px;
     font-family: "Roboto Mono", monospace; }
+    .main-content .lower-content h3 {
+      font-size: 15px;
+      margin-bottom: 40px;
+      font-weight: 300; }
+    .main-content .lower-content p {
+      font-size: 14.5px;
+      font-weight: lighter; }
     .main-content .lower-content .up-next-carousel {
-      height: 175px;
+      height: 155px;
       width: 100px;
       padding: 13px 13px; }
       .main-content .lower-content .up-next-carousel .next-info {
